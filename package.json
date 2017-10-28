@@ -1,0 +1,14 @@
+{
+  "name": "twilio-quest",
+  "version": "1.0.0",
+  "description": "Twilio Quest",
+  "main": "index.js",
+  "author": "Alex Ashley <alexashley15@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.27.0",
+    "hapi": "^16.6.2",
+    "twilio": "^3.9.1",
+    "vision": "^4.1.1"
+  }
+}
