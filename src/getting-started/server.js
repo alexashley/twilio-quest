@@ -1,11 +1,8 @@
 const {Server} = require('hapi'); 
 const {MessagingResponse} = require('twilio').twiml;
 
-
 const server = new Server();
-
 server.connection({port: 3000});
-
 
 const smsRoute = {
 	handler: (request, reply) => {
@@ -16,7 +13,7 @@ const smsRoute = {
 	},
 	method: 'POST',
 	path: '/sms'
-}
+};
 
 server.route(smsRoute);
 
